@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+checkpoints/
+logs/
+data/raw/
+data/processed/
