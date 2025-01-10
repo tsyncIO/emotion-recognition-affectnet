@@ -38,17 +38,17 @@ To get started, clone the repository:
 
 ```bash
 git clone https://github.com/username/emotion-recognition-affectnet.git
-cd emotion-recognition-affectnet
+cd emotion-recognition-affectnet```
   
 
 
 ### Setup & Usage:
-1. **Install Dependencies**: Instructions for installing required dependencies using ```pip install -r requirements.txt.
+1. **Install Dependencies**: Instructions for installing required dependencies using ```pip install -r requirements.txt```
 2. **Dataset**: Detailed information about the AffectNet dataset, including emotion categories.
 3. **Usage**:
-   - **Data Preprocessing**: ```python src/data_loader.py --input_path ./data/raw --output_path ./data/processed
-   - **Training the Model**: ```python src/train.py --epochs 10 --batch_size 32 --learning_rate 0.01
-   - **Predicting on New Images**: ```python src/predict.py --image_path ./path/to/your/image.jpg
+   - **Data Preprocessing**: ```python src/data_loader.py --input_path ./data/raw --output_path ./data/processed```
+   - **Training the Model**: ```python src/train.py --epochs 10 --batch_size 32 --learning_rate 0.01```
+   - **Predicting on New Images**: ```python src/predict.py --image_path ./path/to/your/image.jpg```
 4. **Results**: To be added on future commits.
 5. **Conclusion**: Potential applications and next steps for the project will be developed incrementally...
 
