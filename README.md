@@ -11,13 +11,13 @@ To get started, clone the repository:
 ```bash
 git clone https://github.com/username/emotion-recognition-affectnet.git
 cd emotion-recognition-affectnet
-Install the required dependencies
-Install the required dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Data
+
+###Install the required dependencies:
+
+```pip install -r requirements.txt
+
+###Data
 The AffectNet dataset consists of 1M facial images labeled with one of the following emotions:
 
 Happy
@@ -28,26 +28,18 @@ Disgust
 Anger
 Neutral
 Usage
-Data Preprocessing
-To preprocess the data:
 
-bash
-Copy code
-python src/data_loader.py --input_path ./data/raw --output_path ./data/processed
-Training the Model
-To train the model:
+###To preprocess the data:
+```python src/data_loader.py --input_path ./data/raw --output_path ./data/processed
 
-bash
-Copy code
-python src/train.py --epochs 10 --batch_size 32 --learning_rate 0.01
-Predicting on New Images
-To make predictions:
+###To train the model:
+```python src/train.py --epochs 10 --batch_size 32 --learning_rate 0.01
 
-bash
-Copy code
-python src/predict.py --image_path ./path/to/your/image.jpg
-Results
+###To make predictions:
+```python src/predict.py --image_path ./path/to/your/image.jpg
+
+###Results
 To be added on future commits.
 
-Conclusion
+###Conclusion
 Potential applications and next steps for the project will be developed incrementally.
